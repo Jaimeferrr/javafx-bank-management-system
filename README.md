@@ -1,3 +1,21 @@
-Este es mi primer proyecto serio, tratando de realizar la app de un banco online, mediante java y javafx, además para el login y registro he utilizado una base de datos en MySql por primera vez para que sea más realista.
-Adjunto un archivo rar para la visualización y uso del proyecto, se puede loggear usando admin como usuario y admin como contraseña.
-Además adjunto un vídeo para demostrar el uso en directo con la base de datos.
+# 🏦 Desktop Banking Application (JavaFX + MySQL)
+
+A professional desktop banking solution featuring a modern GUI, secure authentication, and real-time database persistence. This project demonstrates the integration of **JavaFX** for the frontend and **MySQL** for the backend.
+
+## 🚀 Key Features
+- **Secure Authentication:** Full Login and Registration system with user validation.
+- **Banking Operations:** Perform deposits, withdrawals, and balance inquiries with instant database updates.
+- **Modern UI:** Responsive and intuitive interface built with JavaFX.
+
+## 🛠 Tech Stack
+- **Language:** Java 11+
+- **GUI Framework:** JavaFX
+- **Database:** MySQL
+- **Connectivity:** JDBC (Java Database Connectivity)
+
+## 🏗️ Architecture
+The project follows a structured approach to separate concerns:
+- **View:** FXML files for UI layout.
+- **Controller:** Logic to handle user interactions.
+- **Model:** Data structures representing Bank Accounts and Users.
+- **Database Layer:** DAO (Data Access Object) pattern for MySQL operations.
